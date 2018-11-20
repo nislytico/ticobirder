@@ -1,0 +1,337 @@
+/* this applies to all pages*/
+
+
+/*this applies to "index"*/
+#index {
+  background-image: url("./images/background2.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: top;
+  position: fixed;
+  width: 800px;
+}
+
+#tico {/*this is TICO in the title*/
+  font-family: 'Patrick Hand', cursive;
+  font-size: 120px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 30%;
+  top: 45px;
+  transform: translate(-50%, -50%);/*this makes it stay centered on the page
+  even when the browser resizes*/
+  opacity: .85;
+}
+
+#birder {
+  font-family: 'Patrick Hand', cursive;
+  font-size: 120px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 38%;
+  top: 148px;
+  transform: translate(-50%, -50%);/*this makes it stay centered on the page
+  even when the browser resizes*/
+  opacity: .85;
+}
+
+.container { /* this is the flex container*/
+  width: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 50%;
+  top: 366px;
+  transform: translate(-50%, -50%);/*this makes it stay centered on the page
+  even when the browser resizes*/
+  text-align: center;
+  justify-content: space-around;
+  z-index: 3;
+}
+.item {/* these are the link buttons*/
+  width: 95px;
+  height: 20px;
+  border: 2px solid black;
+  border-radius: 8px;
+  background-color: green;
+  color: white;
+  font-family: 'Patrick Hand', cursive;
+  padding-bottom: 6px;
+  font-size: 18px;
+}
+
+p {
+  max-width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 50%;
+  top: 630px;
+  transform: translate(-50%, -50%);/*this makes it stay centered on the page
+  even when the browser resizes*/
+  text-align: left;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+.banner { /*this is the banner behind the links*/
+  height: 45px;
+  width: 800px;
+  background-color: white;
+  opacity: .55;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 50%;
+  top: 366px;
+  transform: translate(-50%, -50%);/*this makes it stay centered on the page
+  even when the browser resizes*/
+  z-index: 2;
+}
+
+#homebutton {
+  opacity: .5;
+}
+
+
+#birds {/*this is the birds page*/
+  background-image: url("./images/backgroundbirds.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: top;
+  position: fixed;
+  width: 800px;
+}
+
+#birdsnav {
+  top: 20px;;
+}
+
+#birdbutton {
+  opacity: .50;
+}
+
+#landscapes {/*this is the landscapes page*/
+  background-image: url("./images/background3.jpg");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: top;
+  position: fixed;
+  width: 800px;
+}
+
+#landnav {
+  top: 20px;
+}
+
+#landscapesbutton {
+  opacity: .5;
+}
+
+#flowers {/*this is for the flowers page*/
+background-image: url("./images/background4.jpg");
+background-size: auto;
+background-repeat: no-repeat;
+background-position: top;
+position: fixed;
+width: 800px;
+}
+
+#flowernav {
+  top: 20px;
+}
+
+#flowerbutton {
+  opacity: .5;
+}
+
+#about {/*this if for the about page*/
+background-image: url("./images/background5.jpg");
+background-size: auto;
+background-repeat: no-repeat;
+background-position: top;
+position: fixed;
+width: 800px;
+}
+
+#aboutnav {
+  top: 20px;
+}
+
+#aboutbutton {
+  opacity: .5;
+}
+
+#about h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 71%;
+  top: 50px;
+  transform: translate(-50%, -50%);/*this makes it stay centered on the page
+  even when the browser resizes*/
+  font-size: 45px;
+  font-weight: 1000;
+  font-family: 'Patrick Hand', cursive;
+  color: green;
+  opacity: .95;
+  z-index: 6;
+}
+
+#aboutimg {
+  width: 225px;
+  height: 225px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 71%;
+  top: 225px;
+  transform: translate(-50%, -50%);/*this makes it stay centered on the page
+  even when the browser resizes*/
+  z-index: 6;
+}
+
+#aboutbox {
+  width: 250px;
+  height: 300px;
+  background-color: white;
+  opacity: .5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 60.7%;
+  top: 56px;
+  z-index: 3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* all pages
+body {
+  font-family: georgia;
+}
+
+.box {
+  display: flex;
+  height: 600px;
+}
+
+/*.box {
+  width: 100px;
+  height: 100px;
+  border: 6px solid green;
+  border-radius: 15px
+  opacity: .9;
+  display: block;*/
+
+}
+}
+ /* icon images
+#box {
+  background-image: url("./images/birdicon.jpg");
+}
+#box2 {
+  background-image: url("./images/birdicon2.jpg");
+}
+#box3 {
+  background-image: url("./images/sunseticon.jpg");
+}
+#box4 {
+  background-image: url("./images/flowericon.jpg");
+}
+#box5 {
+  background-image: url("./images/abouticon.jpg");
+}
+
+/*index
+#index {
+  background-image: url("./images/bird2.jpg");
+  position: fixed;
+  background-size: cover;
+  background-repeat:no-repeat;
+  max-width: 2000px;
+  min-width: 400px;
+
+
+}
+.title {
+  display: flex;
+}
+
+#title {
+  font-size: 85px;
+  color: white;
+  float: right;
+  display: block;
+  width: 450px;
+  height: 100px;
+  align-items: flex-end;
+}
+
+h2 {
+  color: white;
+  opacity: 0.75;
+  margin-top: 175px;
+  display: block;
+  float: right;
+  margin-left: auto;
+  }
+
+/* birds
+#birds {
+  background-image: url("./images/bird1.jpg");
+}
+
+/*landscapes
+#landscapes {
+  background-image: url("./images/sunset.jpg");
+}
+
+/*flowers
+#flowers {
+}
+
+/* about
+#about {
+  background-image: url("./images/van.jpg");
+} */
